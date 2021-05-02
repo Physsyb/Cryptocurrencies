@@ -35,6 +35,7 @@ The data Martha will be working with is not ideal, so it will need to be process
     ![5](https://user-images.githubusercontent.com/76136277/116799804-903d0a80-aac9-11eb-9d31-9ae0da04614f.PNG)
 
 2. A new DataFrame is created that stores all cryptocurrency names from the `CoinName` column and retains the index from the `crypto_df` DataFrame 
+
 ![6](https://user-images.githubusercontent.com/76136277/116799813-b5317d80-aac9-11eb-8a1b-9773fd80bf11.PNG)
 
 3. The `get_dummies()` method is used to create variables for the text features, which are then stored in a new DataFrame, `X` 
